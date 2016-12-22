@@ -45,10 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\Controls.cs" />
      <Compile Include="Assets\scripts\GUI.cs" />
-     <Compile Include="Assets\scripts\OnHitEdges.cs" />
-     <Compile Include="Assets\scripts\init.cs" />
+     <Compile Include="Assets\scripts\charcater.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

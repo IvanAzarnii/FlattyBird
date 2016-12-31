@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{1EE8E5C9-5DDD-8AF2-66C5-F611650A8B7B}") = "Flatty Bird", "Assembly-CSharp.csproj", "{920237A1-5CF0-D398-BAB3-12E510A7FFB0}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flatty Bird", "Flatty Bird.csproj", "{DE3F0B54-6A35-1AD5-FDEA-72043F7ED805}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{920237A1-5CF0-D398-BAB3-12E510A7FFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{920237A1-5CF0-D398-BAB3-12E510A7FFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{920237A1-5CF0-D398-BAB3-12E510A7FFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{920237A1-5CF0-D398-BAB3-12E510A7FFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3F0B54-6A35-1AD5-FDEA-72043F7ED805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3F0B54-6A35-1AD5-FDEA-72043F7ED805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3F0B54-6A35-1AD5-FDEA-72043F7ED805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3F0B54-6A35-1AD5-FDEA-72043F7ED805}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

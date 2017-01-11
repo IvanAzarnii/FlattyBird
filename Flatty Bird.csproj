@@ -76,9 +76,8 @@
     <Compile Include="Assets\Prefabs\scripts\charcaterController.cs" />
     <Compile Include="Assets\Prefabs\scripts\guiController.cs" />
     <Compile Include="Assets\Prefabs\scripts\obstacleController.cs" />
-    <Compile Include="Assets\Prefabs\scripts\obstacleRemover.cs" />
-    <Compile Include="Assets\Prefabs\scripts\s.cs" />
     <Compile Include="Assets\Prefabs\scripts\scoring.cs" />
+    <Compile Include="Assets\Prefabs\scripts\settings.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

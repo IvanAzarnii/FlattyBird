@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 4b39f713542dcf94293359281a712ac6
-timeCreated: 1481562652
+timeCreated: 1483600891
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: Bird_0
+    21300002: Bird_1
+    21300004: Bird_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -63,9 +65,35 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 538
+        y: 26
+        width: 736
         height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bird_1
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 26
+        width: 682
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bird_2
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 701
+        height: 429
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

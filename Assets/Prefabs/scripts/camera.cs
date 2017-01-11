@@ -9,7 +9,7 @@ public class camera : MonoBehaviour {
     {
         float windowAspect = (float)Screen.width / (float)Screen.height;
         float scaleHeight = windowAspect / targetAspect;
-        Camera camera = GetComponent<Camera>();
+        Camera camera = GameObject.Find("Main Camera").GetComponent<Camera>();
 
         if (scaleHeight < 1.0f)
         {

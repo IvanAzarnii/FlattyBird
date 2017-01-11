@@ -18,12 +18,11 @@ public class scoring : MonoBehaviour {
         {
             
             
-            if (player.transform.position.x > obstacles[i].transform.position.x && !    obstacles[i].GetComponent<s>().state)
+            if (player.transform.position.x > obstacles[i].transform.position.x && !obstacles[i].GetComponent<obstacleController>().state)
             {
                 score++;
-                obstacles[i].GetComponent<s>().state = true;
+                obstacles[i].GetComponent<obstacleController>().state = true;
                 GameObject.Find("points").GetComponent<Text>().text = score.ToString();
-                Debug.Log("STATEMENT: " + obstacles[i].GetComponent<s>().state);
                 
             }
         }

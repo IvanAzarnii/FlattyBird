@@ -40,7 +40,7 @@ public class charcaterController : MonoBehaviour {
     }
     void OnDestroy()
     {
-        var auto = System.Convert.ToInt32(GameObject.Find("points").GetComponent<Text>().text);
+        int auto = System.Convert.ToInt32(GameObject.Find("points").GetComponent<Text>().text);
         if(auto > PlayerPrefs.GetInt("MaxScore"))
         {
             PlayerPrefs.SetInt("MaxScore", auto);

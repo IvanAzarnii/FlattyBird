@@ -22,15 +22,14 @@ public class obstacleController : MonoBehaviour {
         GameObject[] obstacles = GameObject.FindGameObjectsWithTag("Obstacle");
         for (int i = 0; i < obstacles.Length; ++i)
             Physics2D.IgnoreCollision(GetComponent<Collider2D>(), obstacles[i].GetComponent<Collider2D>());
+        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GameObject.Find("ground").GetComponent<Collider2D>());    
         InvokeRepeating("CreateObstacles", 1.3f, 1.3f);
         
     }
     void Update()
     {
         if(copied)
-        {
             CancelInvoke();
-        }
     }
     void CreateObstacles()
     {

@@ -4,17 +4,12 @@ using System.Collections;
 
 public class settings : MonoBehaviour {
 
-    float vol;
     Slider reg;
     public Button playbtn;
 
     void Start () {
-        vol = PlayerPrefs.GetFloat("Volume");
-        if (vol == 0f)
-            PlayerPrefs.SetFloat("Volume", 1.0f);
-        PlayerPrefs.Save();
         reg = GameObject.Find("Volumer").GetComponent<Slider>();
-        reg.value = PlayerPrefs.GetFloat("Volume");
+        reg.value = PlayerPrefs.GetFloat("Volume"); 
         reg.onValueChanged.AddListener(delegate { SaveSets(); });
         playbtn.onClick.AddListener(Play);
 

@@ -6,14 +6,9 @@ public class charcaterController : MonoBehaviour {
     Rigidbody2D body;
     Vector2 jump = new Vector2(0.0f, 800.0f);
     void Start () {
-        AudioSource audio = this.GetComponent<AudioSource>();
+        Debug.Log(PlayerPrefs.GetFloat("Volume"));
         GameObject.Find("bg").GetComponent<AudioSource>().Play();
         body = this.GetComponent<Rigidbody2D>();
-        if (PlayerPrefs.GetFloat("Volume") != 0f)
-        {
-            audio.Play();
-            audio.volume = PlayerPrefs.GetFloat("Volume");
-        }
     }
 	
 	void Update () {
@@ -45,6 +40,7 @@ public class charcaterController : MonoBehaviour {
         {
             PlayerPrefs.SetInt("MaxScore", auto);
             PlayerPrefs.Save();
+            
         }
     }
 }
